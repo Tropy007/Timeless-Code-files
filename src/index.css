@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Georgia', serif;
+  }
+}
+
+@layer components {
+  .vintage-shadow {
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+  }
+}
